@@ -56,8 +56,8 @@ ok "Storage accessible: $STORAGE"
 echo
  
 # ── license.json ──────────────────────────────
-echo -e "${BOLD}  license.json${RESET}"
-if [ -f "$STORAGE/license.json" ]; then
+echo -e "${BOLD}  licence.json${RESET}"
+if [ -f "$STORAGE/licence.json" ]; then
     fail "Cheat trace detected at /data/adb/local/tmp"
 else
     fail "Cheat trace is not detected"
